@@ -54,7 +54,7 @@ body {
 	width: 200px;
 	height: 80px;
 	overflow: overflow-y;
-	margin-left: -280px;
+	margin-left: -290px;
 	background-color: lightcoral;
 	padding: 4%;
 	border-radius: 20px;
@@ -145,6 +145,7 @@ h1 {
 	position: relative;
 	font-size: 50px;
 	font-family: 'Berkshire Swash', cursive;
+	color: lightsalmon;
 	right: 15%;
 	font-weight: bolder;
 	text-align: center;
@@ -154,7 +155,7 @@ h1 {
 
 h1:hover {
 
-	color: lightsalmon;
+	color: lightcoral;
 	display: inline-block;
 }
 
@@ -265,13 +266,13 @@ nav {
 	position: absolute;
 	top: 5px;
 	margin: -5px;
-	right: 350px;
+	right: 500px;
 
 
 }
 
 nav li {
-	display: inline;
+	display: inline-block;
 	margin:5px;
 	text-decoration: none;
 }
