@@ -1,0 +1,340 @@
+body {
+
+	width: 600px;
+	margin-left: 40%;
+	background: url("ceu.jpg");
+	font-family: arial, sans-serif;
+
+	
+}
+
+#karma {
+
+	position: absolute;
+	width: 50%;
+	margin: 50px;
+	right: 355px;
+	top: 250px;
+
+}
+
+#karma:hover {
+
+	opacity: 50%;
+
+}
+
+/*estilzando scrollbar https://www.digitalocean.com/community/tutorials/css-scrollbars-pt*/
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hotpink;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: lightblue;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: lightpink;
+  border-radius: 20px;
+  border: 1px solid #C38888;
+}
+
+#aside {
+
+	position: absolute;
+	top: 88px;
+	width: 200px;
+	height: 80px;
+	overflow: overflow-y;
+	margin-left: -280px;
+	background-color: lightcoral;
+	padding: 4%;
+	border-radius: 20px;
+	opacity: 90%;
+}
+
+#aside p {
+
+	text-align: justify;
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	width: 200px;
+	margin: 10px;
+	left: 30px;
+	overflow: overflow-y;
+	padding: 4%;
+	border-radius: 20px;
+	opacity: 90%;
+}
+
+#imagem {
+
+	float: left;
+	padding: 2px	2px	2px	2px;
+}
+
+/* cor ao selecionar texto */
+::selection { background: lightsalmon; color: black; } ::-moz-selection { background: lightsalmon; color: black; }
+
+#tabela {
+
+	background-color: lightcoral;
+	color: black;
+	border-radius: 20px;
+	margin: 5%;
+	opacity: 90%;
+	width: 50%;
+	padding: 5%;
+
+	
+}
+
+p {
+
+	text-align: justify;
+	font-size: 16px;
+	top: 4%;
+	margin: -10px;
+	width: 100%;
+	padding: 2%;
+}
+
+
+
+nav {
+	position: absolute;
+	top: 50px;
+	margin: -5px;
+	right: 400px;
+
+
+}
+
+nav li {
+	display: inline;
+	margin:5px;
+	text-decoration: none;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	
+}
+
+nav a:hover {
+
+	color: black;
+	background-color: yellow;
+	
+}
+
+h1 {
+
+	position: relative;
+	font-size: 50px;
+	font-family: 'Berkshire Swash', cursive;
+	right: 15%;
+	font-weight: bolder;
+	text-align: center;
+	width: 100%;
+	margin: -5px;
+}
+
+h1:hover {
+
+	color: lightsalmon;
+	display: inline-block;
+}
+
+h2 {
+
+	font-size: 25px;
+	background-color: lightpink;
+	padding: 2%;
+	width: 50%;
+}
+
+h2:hover {
+
+	color: white;
+}
+
+h3 {
+
+	font-size: 13px;
+}
+
+#tabela {
+
+	background-color: lightcoral;
+	color: black;
+	border-radius: 20px;
+	margin: 5%;
+	opacity: 90%;
+	width: 50%;
+	padding: 5%;
+
+	
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+table:hover {
+
+	background-color: yellow;
+	
+}
+
+thead {
+
+	background-color: lightblue;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	background-color: lightblue;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 8px 15px;
+}
+
+#texto {
+
+	background-color: lightcoral;
+	opacity: 90%;
+	margin: 5%;
+	border-radius: 20px;
+	color: black;
+	width: 50%;
+	padding: 5%;
+}
+
+a {
+
+	color: black;
+	background-color: lightblue;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 2px;
+}
+
+a:hover {
+
+	background-color: lightpink;
+}
+
+footer {
+
+	display: inline-block;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	border-radius: 20px;
+	opacity: 90%;
+	width: 50%;
+	max-width: 500px;
+	background-color: yellow;
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+body {
+
+	width: 480px;
+}
+
+nav {
+	position: absolute;
+	top: 5px;
+	margin: -5px;
+	right: 350px;
+
+
+}
+
+nav li {
+	display: inline;
+	margin:5px;
+	text-decoration: none;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	
+}
+
+nav a:hover {
+
+	color: black;
+	background-color: lightsalmon;
+	
+}
+
+
+#aside {
+
+	position: absolute;
+	top: 100px;
+	width: 150px;
+	height: 100px;
+	overflow: overflow-y;
+	margin-left: -180px;
+	background-color: lightcoral;
+	padding: 4%;
+	border-radius: 20px;
+	opacity: 90%;
+}
+
+#aside p {
+
+	text-align: justify;
+	font-size: 14px;
+	position: absolute;
+	top: 5px;
+	width: 150px;
+	height: 200px;
+	margin: 10px;
+	left: 1px;
+	overflow: overflow-y;
+	padding: 4%;
+	border-radius: 20px;
+	opacity: 90%;
+}
+
+#karma {
+
+	position: absolute;
+	width: 50%;
+	margin: 50px;
+	right: 180px;
+	top: 250px;
+
+}
+
+#karma:hover {
+
+	opacity: 50%;
+
+
+}
